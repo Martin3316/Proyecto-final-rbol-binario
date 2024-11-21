@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\proyecto arbol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|c:\\users\\marti\\desktop\\proyectos c#\\proyecto arbol\\proyecto arbol\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|c:\\users\\marti\\desktop\\proyectos c#\\proyecto arbol\\proyecto arbol\\nodo_pila_cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\nodo_pila_cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\proyecto arbol\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|c:\\users\\marti\\desktop\\proyectos c#\\proyecto arbol\\proyecto arbol\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|c:\\users\\marti\\desktop\\proyectos c#\\proyecto arbol\\proyecto arbol\\arbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8833136E-D7D8-46C4-B3A5-5E99E62A082A}|Proyecto Arbol\\Proyecto Arbol.csproj|solutionrelative:proyecto arbol\\arbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\Program.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\Program.cs",
+              "RelativeToolTip": "Proyecto Arbol\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:41:48.777Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "arbol.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\arbol.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\arbol.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\arbol.cs",
+              "RelativeToolTip": "Proyecto Arbol\\arbol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:46:40.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nodo.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\nodo.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\nodo.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\nodo.cs",
+              "RelativeToolTip": "Proyecto Arbol\\nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:44:20.87Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pila.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\pila.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\pila.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\pila.cs",
+              "RelativeToolTip": "Proyecto Arbol\\pila.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:17:59.751Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cola.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\cola.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\cola.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\cola.cs",
+              "RelativeToolTip": "Proyecto Arbol\\cola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:27:08.839Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nodo_pila_cola.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\nodo_pila_cola.cs",
+              "RelativeDocumentMoniker": "Proyecto Arbol\\nodo_pila_cola.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Proyectos C#\\Proyecto Arbol\\Proyecto Arbol\\nodo_pila_cola.cs",
+              "RelativeToolTip": "Proyecto Arbol\\nodo_pila_cola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:16:16.176Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

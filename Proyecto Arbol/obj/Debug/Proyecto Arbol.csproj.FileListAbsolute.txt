@@ -1,0 +1,7 @@
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\bin\Debug\Proyecto Arbol.exe.config
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\bin\Debug\Proyecto Arbol.exe
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\bin\Debug\Proyecto Arbol.pdb
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.exe
+C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.pdb
