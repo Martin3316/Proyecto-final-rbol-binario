@@ -8,7 +8,7 @@ namespace Proyecto_Arbol
 {
     internal class cola
     {
-        private nodo_pila_cola inicio;
+        private nodo_lista_pila_cola inicio;
         private int count = 0;
         private int MAX;
 
@@ -51,7 +51,7 @@ namespace Proyecto_Arbol
             }
             else
             {
-                nodo_pila_cola actual = inicio;
+                nodo_lista_pila_cola actual = inicio;
 
                 while (actual != null)
                 {
@@ -78,7 +78,7 @@ namespace Proyecto_Arbol
                 return false;
             }
 
-            nodo_pila_cola nuevo = new nodo_pila_cola(num);
+            nodo_lista_pila_cola nuevo = new nodo_lista_pila_cola(num);
 
             if (inicio == null)
             {
@@ -86,7 +86,7 @@ namespace Proyecto_Arbol
             }
             else
             {
-                nodo_pila_cola act = inicio;
+                nodo_lista_pila_cola act = inicio;
                 while (act.Sig != null)
                 {
                     act = act.Sig;
@@ -110,7 +110,7 @@ namespace Proyecto_Arbol
                 return -1;
             }
 
-            nodo_pila_cola actual = inicio;
+            nodo_lista_pila_cola actual = inicio;
             int valor_guardado = actual.Valor;
             inicio = inicio.Sig;
             Console.WriteLine($"Se elimino el {actual.Valor}");

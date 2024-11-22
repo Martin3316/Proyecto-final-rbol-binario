@@ -45,8 +45,9 @@
   <ItemGroup>
     <Compile Include="arbol.cs" />
     <Compile Include="cola.cs" />
+    <Compile Include="lista.cs" />
     <Compile Include="nodo.cs" />
-    <Compile Include="nodo_pila_cola.cs" />
+    <Compile Include="nodo_lista_pila_cola.cs" />
     <Compile Include="pila.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

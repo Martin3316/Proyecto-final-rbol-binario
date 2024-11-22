@@ -1,5 +1,6 @@
 ﻿using Proyecto_Arbol;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,10 +19,11 @@ namespace Proyecto_Arbol
 
                 Console.WriteLine("Proyecto Final\n" +
                                "______________________\n" +
-                               "1-Arbol\n" +
-                               $"2-Pila\n" +
-                               "3-Cola\n" +
-                               "4-Salir\n" +
+                               "1-Listas\n" +
+                               $"2-Pilas\n" +
+                               "3-Colas\n" +
+                               "4-Arboles\n" +
+                               "5-Salir\n" +
                                "______________________");
                 Console.Write("Seleccionar Opcion: ");
 
@@ -32,19 +34,99 @@ namespace Proyecto_Arbol
               switch (opcion)
               {
                 case 1:
-                        /*
-                        arbol miarbol = new arbol();
+                        lista milista = new lista();
+                        while (regresar_al_menu_principal)
+                        {
+                            Console.WriteLine("Menu Listas " +
+                            "\n__________________________" +
+                            "\n1.- Insertar Nodo" +
+                            "\n2.- Imprimir Tamaño" +
+                            "\n3.- Buscar Nodo" +
+                            "\n4.- Borrar Nodo" +
+                            "\n5.- Modificar Nodo" +
+                            "\n6.- Buscar Valor" +
+                            "\n7.- Imprimir Lista" +
+                            "\n8.- Regresar" +
+                            "\n__________________________");
+                            Console.Write("Seleciona una opcion: ");
 
-                        miarbol.insertar(15);
-                        miarbol.insertar(8);
-                        miarbol.insertar(23);
-                        miarbol.insertar(2);
-                        miarbol.insertar(25);
-                        miarbol.insertar(12);
+                            opcion = int.Parse(Console.ReadLine());
 
-                        miarbol.Recorrido(miarbol.raiz);
-                        Console.ReadLine();*/
+                            switch (opcion)
+                            {
+                                case 1:
+                                    Console.WriteLine("__________________________");
+                                    Console.Write("Ingresa el valor del nodo: ");
+                                    int valor = int.Parse(Console.ReadLine());
+                                    milista.Agregar(valor);
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
 
+                                    break;
+
+                                case 2:
+                                    Console.WriteLine("__________________________");
+                                    milista.Contar();
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 3:
+                                    Console.WriteLine("__________________________");
+                                    Console.Write("Dime cual es la posicion del nodo que quieres saber su valor: ");
+                                    int valor_posicion = int.Parse(Console.ReadLine());
+                                    milista.Encontrar(valor_posicion);
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 4:
+                                    Console.WriteLine("__________________________");
+                                    Console.Write("Dime la posicion del nodo que quieres borrar: ");
+                                    int nodo_borrar = int.Parse(Console.ReadLine());
+                                    milista.Borrar(nodo_borrar);
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 5:
+                                    Console.WriteLine("__________________________");
+                                    Console.WriteLine("Dime la posicion del nodo que quieres modificar");
+                                    int posicion_nodo = int.Parse(Console.ReadLine());
+                                    Console.WriteLine("Ingresa el nuevo valor del nodo.");
+                                    int valor_nodo = int.Parse(Console.ReadLine());
+                                    milista.Cambiar(posicion_nodo, valor_nodo);
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 6:
+                                    Console.WriteLine("__________________________");
+                                    Console.Write("Ingresa el valor a buscar: ");
+                                    int valor_buscar = int.Parse(Console.ReadLine());
+                                    milista.EncontrarValor(valor_buscar);
+                                    Console.WriteLine("!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 7:
+                                    Console.WriteLine("__________________________");
+                                    milista.Imprimir();
+                                    Console.WriteLine("\n__________________________");
+                                    Console.WriteLine("\n!!PRESIONAR ENTER!!");
+                                    Console.ReadKey();
+                                    break;
+
+                                case 8:
+                                    Console.WriteLine("__________________________");
+                                    Console.WriteLine("!!Regresando al menu principal!!");
+                                    regresar_al_menu_principal = false;
+                                    Console.ReadKey();
+                                    break;
+
+                            }
+                            Console.Clear();
+                        }
                         break;
 
                 case 2:
@@ -52,13 +134,13 @@ namespace Proyecto_Arbol
                         
                         while (regresar_al_menu_principal)
                         {
-                            Console.WriteLine("Proyecto Pilas\n" +
+                            Console.WriteLine("Menu pilas\n" +
                             "______________________\n" +
                             "1-Establecer tamaño\n" +
                             $"2-Push\n" +
                             "3-Pop\n" +
                             "4-Imprimir\n" +
-                            "5-Salir\n" +
+                            "5-Regresar\n" +
                             "______________________");
                             Console.Write("Seleccionar Opcion: ");
                             opcion = int.Parse(Console.ReadLine());
@@ -109,7 +191,7 @@ namespace Proyecto_Arbol
                                     Console.ReadKey();
                                     break;
                                 case 5:
-                                    Console.WriteLine("!!ADIOS!!");
+                                    Console.WriteLine("!!Regresando al menu principal!!");
                                     regresar_al_menu_principal = false;
                                     Console.ReadKey();
                                     break;
@@ -124,14 +206,14 @@ namespace Proyecto_Arbol
 
                         while (regresar_al_menu_principal)
                         {
-                            Console.WriteLine("Proyecto colas\n" +
+                            Console.WriteLine("Menu colas\n" +
                                 "______________________\n" +
                                 "1-Establecer tamaño\n" +
                                 $"2-insert\n" +
                                 "3-Extract\n" +
                                 "4-Imprimir\n" +
                                 "5-Count\n" +
-                                "6-Salir\n" +
+                                "6-Regresar\n" +
                                 "______________________");
                             Console.Write("Seleccionar Opcion: ");
                             opcion = int.Parse(Console.ReadLine());
@@ -197,7 +279,7 @@ namespace Proyecto_Arbol
                                     Console.ReadKey();
                                     break;
                                 case 6:
-                                    Console.WriteLine("!!ADIOS!!");
+                                    Console.WriteLine("!!Regresando al menu principal!!");
                                     regresar_al_menu_principal = false;
                                     Console.ReadKey();
                                     break;
@@ -207,6 +289,56 @@ namespace Proyecto_Arbol
                         break;
 
                     case 4:
+                        arbol mi_arbol = new arbol();
+
+                        while (regresar_al_menu_principal)
+                        {
+
+                           Console.WriteLine("Menu Arboles\n" +
+                                  "______________________\n" +
+                                  "1-Insertar nodo\n" +
+                                  $"2-Tamaño\n" +
+                                  "3-Altura\n" +
+                                  "4-LRP\n" +
+                                  "5-Recorrido\n" +
+                                  "6-Regresar\n" +
+                               "______________________");
+                           Console.Write("Seleccionar Opcion: ");
+                           opcion = int.Parse(Console.ReadLine());
+                           Console.WriteLine("______________________");
+
+                            switch(opcion)
+                            {
+                                case 1:
+
+                                break;
+
+                                case 2:
+
+                                break;
+
+                                case 3:
+
+                                break;
+
+                                case 4:
+
+                                break;
+
+                                case 5:
+
+                                break;
+
+                                case 6:
+
+                                break;
+
+
+                            }
+                        }
+                        break;
+
+                    case 5:
                         Console.WriteLine("!!ADIOS!!");
                         return;
               }

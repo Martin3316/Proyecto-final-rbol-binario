@@ -10,7 +10,7 @@ namespace Proyecto_Arbol
     {
         private int MAX;
         private int tope = 0;
-        private nodo_pila_cola inicio;
+        private nodo_lista_pila_cola inicio;
 
         public pila(int max)
         {
@@ -54,7 +54,7 @@ namespace Proyecto_Arbol
             }
             else
             {
-                nodo_pila_cola act = inicio;
+                nodo_lista_pila_cola act = inicio;
 
                 while (act != null)
                 {
@@ -78,7 +78,7 @@ namespace Proyecto_Arbol
             }
             else
             {
-                nodo_pila_cola nuevo = new nodo_pila_cola(num);
+                nodo_lista_pila_cola nuevo = new nodo_lista_pila_cola(num);
 
                 nuevo.Sig = inicio;
 
@@ -105,7 +105,7 @@ namespace Proyecto_Arbol
                 return -1;
             }
 
-            nodo_pila_cola actual = inicio;
+            nodo_lista_pila_cola actual = inicio;
             int valor_guardado = actual.Valor;
             inicio = inicio.Sig;
             Console.WriteLine($"Salio el {actual.Valor}");
