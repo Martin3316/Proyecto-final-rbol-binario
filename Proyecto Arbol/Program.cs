@@ -12,6 +12,7 @@ namespace Proyecto_Arbol
     {
         static void Main(string[] args)
         {
+            int valor = 0;
             bool regresar = true;
             while (regresar)
             {
@@ -57,7 +58,7 @@ namespace Proyecto_Arbol
                                 case 1:
                                     Console.WriteLine("__________________________");
                                     Console.Write("Ingresa el valor del nodo: ");
-                                    int valor = int.Parse(Console.ReadLine());
+                                    valor = int.Parse(Console.ReadLine());
                                     milista.Agregar(valor);
                                     Console.WriteLine("!!PRESIONAR ENTER!!");
                                     Console.ReadKey();
@@ -74,8 +75,8 @@ namespace Proyecto_Arbol
                                 case 3:
                                     Console.WriteLine("__________________________");
                                     Console.Write("Dime cual es la posicion del nodo que quieres saber su valor: ");
-                                    int valor_posicion = int.Parse(Console.ReadLine());
-                                    milista.Encontrar(valor_posicion);
+                                    valor = int.Parse(Console.ReadLine());
+                                    milista.Encontrar(valor);
                                     Console.WriteLine("!!PRESIONAR ENTER!!");
                                     Console.ReadKey();
                                     break;
@@ -83,8 +84,8 @@ namespace Proyecto_Arbol
                                 case 4:
                                     Console.WriteLine("__________________________");
                                     Console.Write("Dime la posicion del nodo que quieres borrar: ");
-                                    int nodo_borrar = int.Parse(Console.ReadLine());
-                                    milista.Borrar(nodo_borrar);
+                                    valor = int.Parse(Console.ReadLine());
+                                    milista.Borrar(valor);
                                     Console.WriteLine("!!PRESIONAR ENTER!!");
                                     Console.ReadKey();
                                     break;
@@ -103,8 +104,8 @@ namespace Proyecto_Arbol
                                 case 6:
                                     Console.WriteLine("__________________________");
                                     Console.Write("Ingresa el valor a buscar: ");
-                                    int valor_buscar = int.Parse(Console.ReadLine());
-                                    milista.EncontrarValor(valor_buscar);
+                                    valor = int.Parse(Console.ReadLine());
+                                    milista.EncontrarValor(valor);
                                     Console.WriteLine("!!PRESIONAR ENTER!!");
                                     Console.ReadKey();
                                     break;
@@ -149,17 +150,17 @@ namespace Proyecto_Arbol
                             {
                                 case 1:
                                     Console.Write("Dime cual sera el tamaño de la pila: ");
-                                    int tamaño_pila = int.Parse(Console.ReadLine());
-                                    Mi_pila = new pila(tamaño_pila);
+                                    valor = int.Parse(Console.ReadLine());
+                                    Mi_pila = new pila(valor);
                                     break;
                                 case 2:
                                     if (Mi_pila != null)
                                     {
                                         Console.Write("Ingresa el numero que quieres agregar: ");
 
-                                        int numero = int.Parse(Console.ReadLine());
+                                        valor = int.Parse(Console.ReadLine());
                                         Console.WriteLine("______________________");
-                                        Mi_pila.Push(numero);
+                                        Mi_pila.Push(valor);
                                         Console.Write("!!PRESIONA ENTER!!");
                                     }
                                     else
@@ -223,17 +224,17 @@ namespace Proyecto_Arbol
                             {
                                 case 1:
                                     Console.Write("Dime cual sera el tamaño de la cola: ");
-                                    int tamaño_cola = int.Parse(Console.ReadLine());
-                                    mi_cola = new cola(tamaño_cola);
+                                    valor = int.Parse(Console.ReadLine());
+                                    mi_cola = new cola(valor);
                                     break;
                                 case 2:
 
                                     if (mi_cola != null)
                                     {
                                         Console.Write("Ingresa el numero que quieres agregar: ");
-                                        int numero = int.Parse(Console.ReadLine());
+                                        valor = int.Parse(Console.ReadLine());
                                         Console.WriteLine("______________________");
-                                        mi_cola.Insert(numero);
+                                        mi_cola.Insert(valor);
                                         Console.Write("!!PRESIONA ENTER!!");
                                     }
                                     else
@@ -310,7 +311,9 @@ namespace Proyecto_Arbol
                             switch(opcion)
                             {
                                 case 1:
-
+                                    Console.WriteLine("Ingresa el valor del nodo brindis :)");
+                                    valor = int.Parse(Console.ReadLine());
+                                    mi_arbol.insertar(valor);
                                 break;
 
                                 case 2:
@@ -326,15 +329,19 @@ namespace Proyecto_Arbol
                                 break;
 
                                 case 5:
-
+                                    Console.WriteLine("El Recorrido del arbol es:");
+                                    mi_arbol.Recorrido();
                                 break;
 
                                 case 6:
-
-                                break;
+                                    Console.WriteLine("!!Regresando al menu principal!!");
+                                    regresar_al_menu_principal = false;
+                                    break;
 
 
                             }
+                            Console.ReadLine();
+                            Console.Clear();
                         }
                         break;
 

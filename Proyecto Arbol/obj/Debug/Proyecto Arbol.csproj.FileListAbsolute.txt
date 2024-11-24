@@ -5,3 +5,10 @@ C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proy
 C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.CoreCompileInputs.cache
 C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.exe
 C:\Users\marti\Desktop\Proyectos C#\Proyecto Arbol\Proyecto Arbol\obj\Debug\Proyecto Arbol.pdb
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\bin\Debug\Proyecto Arbol.exe.config
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\bin\Debug\Proyecto Arbol.exe
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\bin\Debug\Proyecto Arbol.pdb
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.AssemblyReference.cache
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.CoreCompileInputs.cache
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.exe
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.pdb
