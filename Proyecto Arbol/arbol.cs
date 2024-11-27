@@ -11,6 +11,8 @@ namespace Proyecto_Arbol
         public nodo raiz;
         private nodo obs;
 
+        public int contador = 0;
+
         public void insertar(int v)
         {
             nodo nuevo, psave;
@@ -25,7 +27,7 @@ namespace Proyecto_Arbol
             else
             {
                 nuevo = new nodo(v);
-                if(raiz == null)
+                if (raiz == null)
                 {
                     raiz = nuevo;
                     obs = nuevo;
@@ -34,10 +36,11 @@ namespace Proyecto_Arbol
                 {
                     if (v < obs.valor)
                         obs.izq = nuevo;
-                    else 
+                    else
                         obs.der = nuevo;
                     obs = nuevo;
                 }
+                contador++;
             }
         }
 
@@ -48,17 +51,17 @@ namespace Proyecto_Arbol
             q = raiz;
             while (!Found && q != null)
             {
-                if (v==q.valor)
+                if (v == q.valor)
                 {
                     obs = q;
                     Found = true;
                 }
                 else
                 {
-                    if(v < q.valor)
+                    if (v < q.valor)
                     {
-                        if(q.izq == null)
-                           obs = q;
+                        if (q.izq == null)
+                            obs = q;
                         q = q.izq;
                     }
                     else
@@ -74,15 +77,20 @@ namespace Proyecto_Arbol
 
         public void Recorrido(nodo q)
         {
-            if(q != null)
+            if (q != null)
             {
                 Console.Write($"{q.valor},");
                 Recorrido(q.izq);
                 Console.Write($"{q.valor},");
                 Recorrido(q.der);
                 Console.Write($"{q.valor},");
-                
+
             }
+        }
+
+        public void tamaño()
+        {
+            Console.WriteLine($"El tamaño del arbol es: {contador}");
         }
     }
 }

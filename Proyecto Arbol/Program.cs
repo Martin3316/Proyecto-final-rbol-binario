@@ -317,7 +317,7 @@ namespace Proyecto_Arbol
                                 break;
 
                                 case 2:
-
+                                    mi_arbol.tamaño();
                                 break;
 
                                 case 3:
@@ -325,12 +325,12 @@ namespace Proyecto_Arbol
                                 break;
 
                                 case 4:
-
+                                    
                                 break;
 
                                 case 5:
                                     Console.WriteLine("El Recorrido del arbol es:");
-                                    mi_arbol.Recorrido();
+                                    mi_arbol.Recorrido(mi_arbol.raiz);
                                 break;
 
                                 case 6:
