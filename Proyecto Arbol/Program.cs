@@ -308,19 +308,20 @@ namespace Proyecto_Arbol
                            opcion = int.Parse(Console.ReadLine());
                            Console.WriteLine("______________________");
 
-                            switch(opcion)
+                            switch (opcion)
                             {
                                 case 1:
-                                    Console.WriteLine("Ingresa el valor del nodo brindis :)");
+                                    Console.WriteLine("Ingresa el valor del nodo: ");
                                     valor = int.Parse(Console.ReadLine());
                                     mi_arbol.insertar(valor);
-                                break;
+                                    break;
 
                                 case 2:
                                     mi_arbol.tamaño();
-                                break;
+                                    break;
 
                                 case 3:
+                                    Console.WriteLine($"La altura del árbol es: {mi_arbol.Altura(mi_arbol.raiz)}");
 
                                 break;
 

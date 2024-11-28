@@ -92,5 +92,20 @@ namespace Proyecto_Arbol
         {
             Console.WriteLine($"El tamaño del arbol es: {contador}");
         }
+
+        public int Altura(nodo q)
+        {
+            if (q == null)
+                return 0;
+
+            int alturaIzq = Altura(q.izq);
+            int alturaDer = Altura(q.der);
+
+            if (alturaIzq > alturaDer)
+                return 1 + alturaIzq;
+            else
+                return 1 + alturaDer;
+        }
+
     }
 }
