@@ -107,5 +107,27 @@ namespace Proyecto_Arbol
                 return 1 + alturaDer;
         }
 
+        private void LR(nodo q, int distAct, ref int sumDist, ref int totNodos)
+        {
+            if (q != null)
+            {
+                sumDist += distAct;
+                totNodos++;
+
+                LR(q.izq, distAct + 1, ref sumDist, ref totNodos);
+                LR(q.der, distAct + 1, ref sumDist, ref totNodos);
+            }
+        }
+
+        public double LRP()
+        {
+            int sumDist = 0;
+            int totNodos = 0;
+
+            LR(raiz, 1, ref sumDist, ref totNodos);
+
+            if (totNodos == 0) return 0;
+            return (double)sumDist / totNodos;
+        }
     }
 }

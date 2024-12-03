@@ -12,3 +12,4 @@ C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Pr
 C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.CoreCompileInputs.cache
 C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.exe
 C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.pdb
+C:\Users\cisco01\Desktop\Proyecto-final-rbol-binario\Proyecto Arbol\obj\Debug\Proyecto Arbol.csproj.SuggestedBindingRedirects.cache

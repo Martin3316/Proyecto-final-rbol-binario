@@ -314,19 +314,18 @@ namespace Proyecto_Arbol
                                     Console.WriteLine("Ingresa el valor del nodo: ");
                                     valor = int.Parse(Console.ReadLine());
                                     mi_arbol.insertar(valor);
-                                    break;
+                                break;
 
                                 case 2:
                                     mi_arbol.tamaño();
-                                    break;
+                                break;
 
                                 case 3:
                                     Console.WriteLine($"La altura del árbol es: {mi_arbol.Altura(mi_arbol.raiz)}");
-
                                 break;
 
                                 case 4:
-                                    
+                                    Console.WriteLine($"El LRP del árbol es:{mi_arbol.LRP()}");
                                 break;
 
                                 case 5:
